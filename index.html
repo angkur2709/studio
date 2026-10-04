@@ -6,6 +6,22 @@
   <meta name="description" content="STUDIO — Mechanics, Materials, Design & Physical AI at Caltech." />
   <title>STUDIO — Mechanics, Materials & Physical AI</title>
   <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    /* Image-free layout: retain the original editorial structure without placeholders. */
+    .research-row,
+    .research-row--reverse {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .research-copy {
+      max-width: 58rem;
+    }
+    .experiment-grid {
+      align-items: start;
+    }
+    .full-bleed {
+      display: none;
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -36,10 +52,6 @@
         </div>
       </div>
 
-      <!-- <figure class="image-frame image-frame--hero">
-        <img src="images/hero.jpg" alt="Experimental mechanics research image" />
-        <figcaption>Replace with a wide laboratory, X-ray, metamaterial, or full-field experimental image.</figcaption>
-      </figure> -->
     </section>
 
     <section class="intro shell section-rule">
@@ -61,9 +73,6 @@
       </div>
 
       <article class="research-row">
-        <figure class="image-frame research-image">
-          <img src="images/physical-ai.jpg" alt="Physical AI experimental system" />
-        </figure>
         <div class="research-copy">
           <p class="eyebrow">Physical AI</p>
           <h3>Physical AI<br />for Mechanics</h3>
@@ -73,9 +82,6 @@
       </article>
 
       <article class="research-row research-row--reverse">
-        <figure class="image-frame research-image">
-          <img src="images/metamaterials.jpg" alt="Mechanical metamaterial specimen" />
-        </figure>
         <div class="research-copy">
           <p class="eyebrow">Mechanical metamaterials</p>
           <h3>Failure is<br />a design variable.</h3>
@@ -85,9 +91,6 @@
       </article>
 
       <article class="research-row">
-        <figure class="image-frame research-image">
-          <img src="images/thermal.jpg" alt="Thermodynamic metamaterial or heat exchanger" />
-        </figure>
         <div class="research-copy">
           <p class="eyebrow">Thermodynamic metamaterials</p>
           <h3>Structures as<br />thermal devices.</h3>
@@ -106,28 +109,24 @@
 
       <div class="experiment-grid">
         <article class="experiment experiment--wide">
-          <figure class="image-frame"><img src="images/ripstop.jpg" alt="Ripstop gyroid experiment" /></figure>
           <p class="eyebrow">Mechanical metamaterials</p>
           <h3>Ripstop gyroids</h3>
           <p>Interpenetrating gyroid networks create reinforced regions that can interrupt or arrest crack propagation, asking how topology can produce architected damage tolerance.</p>
         </article>
 
         <article class="experiment experiment--small experiment--offset">
-          <figure class="image-frame image-frame--portrait"><img src="images/heat-exchanger.jpg" alt="Architected heat exchanger" /></figure>
           <p class="eyebrow">Thermodynamic metamaterials</p>
           <h3>Architected heat exchangers</h3>
           <p>Additively manufactured heat exchangers and heat-pipe concepts that use geometry to increase transport efficiency while reducing size and material use.</p>
         </article>
 
         <article class="experiment experiment--small">
-          <figure class="image-frame image-frame--portrait"><img src="images/stress-strain.jpg" alt="Local stress strain full-field measurement" /></figure>
           <p class="eyebrow">Local constitutive response</p>
           <h3>Stress–strain, everywhere</h3>
           <p>Optical full-field imaging and X-ray scattering reveal local elastic, plastic and total strain behavior in spatially heterogeneous materials.</p>
         </article>
 
         <article class="experiment experiment--wide experiment--right">
-          <figure class="image-frame"><img src="images/simmons-wagon.jpg" alt="The Simmons Wagon elasto-plastic diffractometer" /></figure>
           <p class="eyebrow">Instrumentation</p>
           <h3>The Simmons Wagon</h3>
           <p>A custom elasto-plastic diffractometer combining stereo DIC and X-ray diffraction to separate elastic and plastic contributions to local deformation.</p>
@@ -145,14 +144,9 @@
       <div class="loop" aria-label="Physical AI research loop">
         <div class="loop-item loop-item--top"><span>01</span><h3>MAKE</h3><p>Generate specimen geometry, architecture, orientation and controlled imperfections.</p></div>
         <div class="loop-item loop-item--right"><span>02</span><h3>MEASURE</h3><p>Acquire real 3D geometry, displacement, strain, stress, damage and microstructural evolution.</p></div>
-        <figure class="loop-center image-frame"><img src="images/physical-ai-center.jpg" alt="Central Physical AI experiment" /></figure>
         <div class="loop-item loop-item--bottom"><span>03</span><h3>LEARN</h3><p>Infer constitutive structure, hidden state variables, scaling laws and uncertainty.</p></div>
         <div class="loop-item loop-item--left"><span>04</span><h3>DISCOVER</h3><p>Choose the next physical experiment that best distinguishes competing models.</p></div>
       </div>
-    </section>
-
-    <section class="full-bleed">
-      <figure class="image-frame image-frame--full"><img src="images/closing.jpg" alt="Research laboratory closing image" /></figure>
     </section>
 
     <section class="closing shell">
