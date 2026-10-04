@@ -1,8 +1,8 @@
 {
   "hero": {
     "eyebrow": "Caltech · Experimental mechanics",
-    "tagline": "A mechanician’s atelier\nfor materials engineering.",
-    "introduction": "We are experimenters who build instruments and take measurements, fueling AI and quantum to design tomorrow’s materials—from aerospace and healthcare to quantum technologies."
+    "tagline": "A mechanician’s atelier \nfor materials engineering.",
+    "introduction": "We are experimenters who build instruments and take measurements, fueling material informatics to design tomorrow’s materials—from aerospace, healthcare to quantum technologies."
   },
   "purpose": {
     "heading": "Theory inspires experiment.\nExperiment challenges theory.",
@@ -10,14 +10,35 @@
     "paragraph_two": "These measurements fuel materials informatics, enable AI for materials design, and advance Physical AI for the next generation of experiments."
   },
   "research_streams": [
-    {"title":"Physical AI\nfor Mechanics","description":"Can a machine autonomously interrogate a material until it understands its behavior? We close the loop between making, measuring, learning and choosing the next experiment."},
-    {"title":"Mechanical\nmetamaterials","description":"We use architecture to program stiffness, strength, deformation and failure—turning geometry and controlled defects into material design variables."},
-    {"title":"Thermodynamic\nmetamaterials","description":"We design topology, interfaces and transport pathways so structures become thermal devices, from compact heat exchangers to multifunctional aerospace systems."}
+    {
+      "title": "Physical AI\nfor Mechanics",
+      "description": "Can a machine autonomously interrogate a material until it understands its behavior? We close the loop between making, measuring, learning and choosing the next experiment."
+    },
+    {
+      "title": "Mechanical\nmetamaterials",
+      "description": "We use architecture to program stiffness, strength, deformation and failure—turning geometry and controlled defects into material design variables."
+    },
+    {
+      "title": "Thermodynamic\nmetamaterials",
+      "description": "We design topology, interfaces and transport pathways so structures become thermal devices, from compact heat exchangers to multifunctional aerospace systems."
+    }
   ],
   "projects": [
-    {"category":"FRACTURE","title":"Ripstop gyroids","description":"Interpenetrating networks create reinforced regions designed to interrupt crack propagation and produce architected damage tolerance."},
-    {"category":"TRANSPORT","title":"Architected heat exchangers","description":"Additively manufactured structures use geometry to increase transport efficiency while reducing size and mass."},
-    {"category":"INSTRUMENTATION","title":"Stress–strain, everywhere","description":"Optical full-field imaging and X-ray scattering reveal local elastic, plastic and total strain response in spatially heterogeneous materials."}
+    {
+      "category": "FRACTURE",
+      "title": "Ripstop gyroids",
+      "description": "Interpenetrating networks create reinforced regions designed to interrupt crack propagation and produce architected damage tolerance."
+    },
+    {
+      "category": "TRANSPORT",
+      "title": "Architected heat exchangers",
+      "description": "Additively manufactured structures use geometry to increase transport efficiency while reducing size and mass."
+    },
+    {
+      "category": "INSTRUMENTATION",
+      "title": "Stress–strain, everywhere",
+      "description": "Optical full-field imaging and X-ray scattering reveal local elastic, plastic and total strain response in spatially heterogeneous materials."
+    }
   ],
   "contact": {
     "description": "Studio is a materials design and experimental mechanics group at Caltech.",
