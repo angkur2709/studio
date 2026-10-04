@@ -1,0 +1,55 @@
+media: media
+
+content:
+  - name: homepage
+    label: Homepage
+    type: file
+    path: content.json
+    format: json
+    fields:
+      - name: hero
+        label: Hero section
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: tagline, label: Main tagline, type: text }
+          - { name: introduction, label: Introduction, type: text }
+      - name: purpose
+        label: What we do
+        type: object
+        fields:
+          - { name: heading, label: Heading, type: text }
+          - { name: paragraph_one, label: First paragraph, type: text }
+          - { name: paragraph_two, label: Second paragraph, type: text }
+      - name: research_streams
+        label: Research streams
+        type: object
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - { name: title, label: Title, type: text }
+          - { name: description, label: Description, type: text }
+      - name: projects
+        label: Current experiments
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - { name: category, label: Category, type: string }
+          - { name: title, label: Project title, type: string }
+          - { name: description, label: Description, type: text }
+      - name: contact
+        label: Contact
+        type: object
+        fields:
+          - { name: description, label: Group description, type: text }
+          - { name: email, label: Email, type: string }
+
+settings:
+  content:
+    merge: true
